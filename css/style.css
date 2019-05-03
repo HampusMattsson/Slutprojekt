@@ -1,12 +1,81 @@
 body{
-	font-family: Verdana;
 }
 .mellanrum{
 	margin-right: 20px;
 }
 .main{
-	background-color: red;
+	background-color: lightblue;
 }
 .sidopanel{
 
+}
+.footer{
+	background-color: lightgreen;
+	text-align: center;
+	height: 100px;
+	width: 100%;
+}
+.storlek{
+background-size: 400px;
+width: 400px;
+height: 275px;
+}
+.input{
+	display: none;
+}
+.hopp{
+	margin-top: 30px;
+}
+#answer{
+	width: 500px;
+}
+.bild0{
+	background-image: url("../img/ps2.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.bild1{
+	background-image: url("../img/usbc.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.bild2{
+	background-image: url("../img/c++.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.bild3{
+	background-image: url("../img/gpu.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.bild4{
+	background-image: url("../img/yt.png");
+	background-position: center;
+	background-repeat: no-repeat;'
+}
+.bild5{
+	background-image: url("../img/dongle.jpg");
+	background-position: center;
+	background-repeat: no-repeat;'
+}
+.bild6{
+	background-image: url("../img/iphone.jpg");
+	background-position: center;
+	background-repeat: no-repeat;'
+}
+.bild7{
+	background-image: url("../img/stevejobs.jpg");
+	background-position: center;
+	background-repeat: no-repeat;'
+}
+.bild8{
+	background-image: url("../img/html.jpg");
+	background-position: center;
+	background-repeat: no-repeat;'
+}
+.bild9{
+	background-image: url("../img/binary.jpg");
+	background-position: center;
+	background-repeat: no-repeat;'
 }

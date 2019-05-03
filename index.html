@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -8,12 +9,13 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 	<title>Tjejhack</title>
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #336699">
-		<a class="navbar-brand" href="index.html"><img src="img/tjejhack.jpg" width="125"></a>
+		<a class="navbar-brand" href="index.html"><img src="img/tjejhack.jpg" width="100"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -31,16 +33,43 @@
 </nav>
 <div class="row">
 	<div class="main col">
-		<h1>test</h1>
+		<h1>bild</h1>
+		<main>Allmän info om tjejhack</main>
 	</div>
-	<div class="sidopanel col">
-		<h3>Nästa tjejhack:</h3>
+	<div class="sidopanel col-md-auto">
+		<h3>Nästa tjejhack: 27e Maj</h3>
+
+		<h1 class="titel" id="titel">Teknik Quiz</h1>
+
+		<h2 id="froga" class="hej">Vad heter denna konsol?</h2>
+
+		<div id="bild" class="bild0 storlek">
+			
+			<div id="input" class="hej ">
+				<form method="POST">
+					<div class="form-group">
+						<label for="svar">Svar</label>
+						<input id="answer" class="form-control" type="text" placeholder="Skriv ditt svar">
+						<small id="help" class="form-text text-muted">Skriv endast med små bokstäver och UTAN mellanslag</small>
+					</div>
+					<button id="knapp" class="btn btn-success" type="button" onclick="checkAnswer()">Svara</button>
+				</form>
+			</div>
+			<h2 id="visa">Dina antal rätt: 0</h2>
+
+			<h3 id="kvar">Antal Frågor kvar: 10</h3>
+
+			<script type="text/javascript" src="js/skript.js" charset="utf-8"></script>
+			<script type="text/javascript" src="js/jquery.js" charset="utf-8"></script>
+		</div>
 	</div>
-</div>
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<div class="footer">			<!-- Footer -->
+		© Copyright Hampus 2018
+	</div>
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
