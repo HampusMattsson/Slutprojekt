@@ -9,11 +9,15 @@ body{
 .sidopanel{
 
 }
+.kort1{
+	float: left;
+}
 .footer{
 	background-color: lightgreen;
 	text-align: center;
 	height: 100px;
 	width: 100%;
+	padding-top: 40px;
 }
 .storlek{
 background-size: 400px;
