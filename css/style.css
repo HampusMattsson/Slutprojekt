@@ -9,8 +9,14 @@ body{
 .sidopanel{
 
 }
-.kort1{
+.info{
+	margin-bottom: 50px;
+}
+.frippe{
 	float: left;
+}
+.liselott{
+
 }
 .footer{
 	background-color: lightgreen;
@@ -23,6 +29,9 @@ body{
 background-size: 400px;
 width: 400px;
 height: 275px;
+}
+.flytt{
+	height: 225px;
 }
 .input{
 	display: none;
