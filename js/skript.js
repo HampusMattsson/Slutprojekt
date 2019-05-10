@@ -1,8 +1,8 @@
 var antal = 0;
 var fragor = 10;
 
-var svar = ["playstation2", "usbc", "c++", "grafikkort", "google", "dongle", "qi", "2011", "html", "binäratalsystemet"]
-var froga = ["Vad heter denna konsoll?", "Vad heter denna kontakt?", "Vad heter detta programmeringsspråk?", "Vad är detta för något?", 
+var svar = ["programmeringsspråk", "modul", "c++", "grafikkort", "google", "dongle", "qi", "2011", "html", "binäratalsystemet"]
+var froga = ["Vad är Python för något?", "Vad är Turtle?", "Vad heter detta programmeringsspråk?", "Vad är detta för något?", 
 "Vilka är skaparna av denna webbsida?", "Vad kallas en sån här?", "Vad heter standarden som iPhones använder för trådlös laddning?", "När dog denna herre?",
 "Vad heter detta för märksspråk?", "Vad heter talsystemet som datorer använder sig av?"]
 

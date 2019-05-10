@@ -1,5 +1,8 @@
 body{
 }
+.padding{
+	padding: 20px;
+}
 .mellanrum{
 	margin-left: 20px;
 }
@@ -43,14 +46,16 @@ height: 275px;
 	width: 500px;
 }
 .bild0{
-	background-image: url("../img/ps2.jpg");
+	background-image: url("../img/bild0.png");
 	background-position: center;
 	background-repeat: no-repeat;
+	background-size: 50%;
 }
 .bild1{
-	background-image: url("../img/usbc.jpg");
+	background-image: url("../img/bild1.png");
 	background-position: center;
 	background-repeat: no-repeat;
+	background-size: 55%;
 }
 .bild2{
 	background-image: url("../img/c++.png");
