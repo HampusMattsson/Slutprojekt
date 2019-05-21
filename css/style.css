@@ -1,5 +1,8 @@
 body{
 }
+.fargtema{
+
+}
 .padding{
 	padding: 20px;
 }
@@ -43,7 +46,7 @@ height: 275px;
 	margin-top: 30px;
 }
 #answer{
-	width: 500px;
+	width: 375px;
 }
 .bild0{
 	background-image: url("../img/bild0.png");
@@ -58,42 +61,8 @@ height: 275px;
 	background-size: 55%;
 }
 .bild2{
-	background-image: url("../img/c++.png");
+	background-image: url("../img/bild0.png");
 	background-position: center;
 	background-repeat: no-repeat;
-}
-.bild3{
-	background-image: url("../img/gpu.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-}
-.bild4{
-	background-image: url("../img/yt.png");
-	background-position: center;
-	background-repeat: no-repeat;'
-}
-.bild5{
-	background-image: url("../img/dongle.jpg");
-	background-position: center;
-	background-repeat: no-repeat;'
-}
-.bild6{
-	background-image: url("../img/iphone.jpg");
-	background-position: center;
-	background-repeat: no-repeat;'
-}
-.bild7{
-	background-image: url("../img/stevejobs.jpg");
-	background-position: center;
-	background-repeat: no-repeat;'
-}
-.bild8{
-	background-image: url("../img/html.jpg");
-	background-position: center;
-	background-repeat: no-repeat;'
-}
-.bild9{
-	background-image: url("../img/binary.jpg");
-	background-position: center;
-	background-repeat: no-repeat;'
+	background-size: 50%;
 }
