@@ -1,10 +1,8 @@
 var antal = 0;
 var fragor = 10;
 
-var svar = ["programmeringsspråk", "modul", "c++", "grafikkort", "google", "dongle", "qi", "2011", "html", "binäratalsystemet"]
-var froga = ["Vad är Python för något?", "Vad är Turtle?", "Vad heter detta programmeringsspråk?", "Vad är detta för något?", 
-"Vilka är skaparna av denna webbsida?", "Vad kallas en sån här?", "Vad heter standarden som iPhones använder för trådlös laddning?", "När dog denna herre?",
-"Vad heter detta för märksspråk?", "Vad heter talsystemet som datorer använder sig av?"]
+var svar = ["programmeringsspråk", "modul", "c++"]
+var froga = ["Vad är Python för något?", "Vad är Turtle?", "Vad heter detta programmeringsspråk?"]
 
 var forsok = 0;
 
@@ -32,7 +30,7 @@ function checkAnswer(){
 	document.getElementById("froga").innerHTML = (froga[forsok]);
 
 
-	if (forsok==10){
+	if (forsok==3){
 		console.log("test")
 
 		document.getElementById("froga").innerHTML = "Grattis du fick "+(antal)+" rätt!";

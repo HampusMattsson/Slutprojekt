@@ -4,25 +4,42 @@ body{
 	background-color: #f0efef;
 }
 .padding{
-	padding: 20px;
+	padding: 10px 0px 0px 30px;
 }
 .mellanrum{
 	margin-left: 20px;
 }
 .main{
-
+	width: 100%;
+}
+.flex{
+	display: flex;
+}
+.bildgalleri{
+	margin-right: 5px;
+	margin-top: 5px;
+}
+.auto{
+	margin: auto;
+	text-align: center;
 }
 .sidopanel{
 
 }
-.info{
-	margin-bottom: 50px;
-}
-.frippe{
+.kort{
 	float: left;
 }
-.liselott{
-
+.info{
+	margin-top: 10px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+}
+.quiz{
+	text-align: center;
+}
+.mitt{
+	text-align: center;
 }
 .footer{
 	text-align: center;
