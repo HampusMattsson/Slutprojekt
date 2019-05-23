@@ -34,10 +34,6 @@ body{
 	margin-bottom: 25px;
 	text-align: center;
 }
-}
-.quiz{
-	text-align: center;
-}
 .mitt{
 	text-align: center;
 }
@@ -50,7 +46,7 @@ body{
 .storlek{
 background-size: 400px;
 width: 400px;
-height: 275px;
+height: 220px;
 }
 .flytt{
 	height: 225px;
