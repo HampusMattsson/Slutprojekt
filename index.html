@@ -15,7 +15,7 @@
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light fargtema">
-		<a class="navbar-brand" href="index.html"><img src="img/ny logga.png" width="100"></a>
+		<a class="navbar-brand" href="index.html"><img src="img/nylogga.png" width="100" alt=""></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -28,51 +28,63 @@
 				<a class="btn btn-dark mellanrum" href="Kontakt.html">Kontakt</a> 
 			</div>
 		</div>	
-		<a href="https://www.ronneby.se/knuthahnsskolan" target="blank_"><img src="img/knut hahn.gif" width="100"></a> <!-- Knut Hahn logga -->
-	</div>
+		<a href="https://www.ronneby.se/knuthahnsskolan" target="blank_"><img src="img/knuthahn.gif" width="100" alt=""></a> <!-- Knut Hahn logga -->
+
 </nav>
-<div class="row">
-	<div class="col padding">
-		<div class="main">
-			<h1>Allmän info om tjejhack</h1>
-			<main class="ner">Tjejhack Ronneby genomfördes första gången våren 2018 för alla tjejer som går årskurs sju på skolorna i Ronneby kommun. Det är elever som går Teknikprogrammet på Gymnasieskolan Knut Hahn som arrangerar tjejhacket. Syftet är att tjejer i lugn och ro ska få prova på att programmera. Planen är att tjejhack ska bli något vi genomför varje år.</main> 
-			<img class="ner" src="img/kod.png" width="900">
-			<h2>Statistik</h2>
-			<main class="ner">2018: 120 deltagare, 4 st mentorer, 2 st lärare
-2019: Första tjejhacket kommer att genomföras 29/5 med tjejerna i årskurs 7 på Snäckebackskolan. Förutom tjejhack kommer även en workshop om programmering med python att genomföras på Listerbyskolan (årskurs 4-6).
-</main>
-		</div>
-	</div>
-
-
-	<div class="sidopanel col-">
-		<h3 class="info" >Nästa tjejhack: 27e Maj</h3>
-		<div class="mitt">
-			<a class="btn btn-success material ner" href="Undervisning.html">Ladda ner senaste materialet</a>
-		</div>
-
-		<div>													<!-- Quiz -->
-			<h1 class="titel auto" id="titel">Python Quiz</h1>				
-			<h2 id="froga" class="hej auto">Vad är Python för något?</h2>
-			<div id="bild" class="bild0 storlek">
-				<div class="flytt"></div>
-				<div id="input" class="hej ">
-					<form method="POST">
-						<div class="form-group">
-							<input id="answer" class="form-control" type="text" placeholder="Skriv ditt svar">
-							<small id="help" class="form-text text-muted">Skriv endast med små bokstäver och UTAN mellanslag</small>
-						</div>
-						<button id="knapp" class="btn btn-success" type="button" onclick="checkAnswer()">Svara</button>
-					</form>
-				</div>
-				<h2 id="visa">Dina antal rätt: 0</h2>
-				<h3 id="kvar">Antal Frågor kvar: 3</h3>
-				<script type="text/javascript" src="js/skript.js" charset="utf-8"></script>
+<div class="container">
+	<div class="row">
+		<div class="col padding">
+			<div class="main">
+				<h1>Tjejhack</h1>
+				<h3>Allmän info om tjejhack</h3>
+				<main class="ner">Tjejhack Ronneby genomfördes första gången våren 2018 för alla tjejer som går årskurs sju på skolorna i Ronneby kommun. Det är elever som går Teknikprogrammet på Gymnasieskolan Knut Hahn som arrangerar tjejhacket. Syftet är att tjejer i lugn och ro ska få prova på att programmera. Planen är att tjejhack ska bli något vi genomför varje år.</main> 
+				<h2>Statistik</h2>
+				<p class="ner">2018: 120 deltagare, 4 st mentorer, 2 st lärare
+					2019: Första tjejhacket kommer att genomföras 29/5 med tjejerna i årskurs 7 på Snäckebackskolan. Förutom tjejhack kommer även en workshop om programmering med python att genomföras på Listerbyskolan (årskurs 4-6).
+				</p>
+				<h3>Utvärdering 2018</h3>
+				<img class="merner" src="img/vardering1.png" alt="">
+				<img class="merner" src="img/vardering2.png" alt="">
+				<img class="ner" src="img/kod.png" width="900" alt="">
+				<p class="merner">Tjejhack Ronneby genomfördes första gången våren 2018 för alla tjejer som går årskurs sju på skolorna i Ronneby kommun. Det är elever som går Teknikprogrammet på Gymnasieskolan Knut Hahn som arrangerar tjejhacket. Syftet är att tjejer i lugn och ro ska få prova på att programmera. Planen är att tjejhack ska bli något vi genomför varje år.</p>
 			</div>
 		</div>
+
+
+		<div class="col-4">					 <!-- Sidopanel med quiz -->
+			<h3 class="info" >Nästa tjejhack: 27e Maj</h3>
+			<div class="auto">
+				<a class="btn material ner" href="Undervisning.html">Ladda ner senaste materialet</a>
+			</div>
+
+			<div class="quiz">													<!-- Quiz -->
+				<h1 class="titel auto quizfix" id="titel">Python Quiz</h1>				
+				<h2 id="froga" class="hej auto quizfix">Vad är Python för något?</h2>
+				<div id="bild" class="bild0 storlek quizfix">
+					<div class="flytt"></div>
+					<div id="input" class="hej quizfix">
+						<form method="POST">
+							<div class="form-group">
+								<input id="answer" class="form-control quizfix" type="text" placeholder="Skriv ditt svar">
+								<small id="help" class="form-text text-muted quizfix">Skriv endast ett ord, med små bokstäver och UTAN mellanslag</small>
+							</div>
+							<button id="knapp" class="btn btn-success" type="button" onclick="checkAnswer()">Svara</button>
+						</form>
+					</div>
+					<h2 class="quizfix" id="visa">Dina antal rätt: 0</h2>
+					<h3 class="quizfix merner" id="kvar">Antal Frågor kvar: 3</h3>
+					<script src="js/skript.js"></script>
+
+					<h4>Tips för dig som vill koda mer</h4>				 <!--Tips för den som vill koda mer -->
+					<a class="ner material btn" href="https://www.codecademy.com/" target="blank_">Codeacademy</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer fargtema">			<!-- Footer -->
+			© Copyright Hampus 2018
+		</div>
 	</div>
-	<div class="footer fargtema">			<!-- Footer -->
-		© Copyright Hampus 2018
 	</div>
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->

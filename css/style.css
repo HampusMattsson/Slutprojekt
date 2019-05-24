@@ -1,42 +1,67 @@
 body{
 }
-.fargtema{
+.container{								/* Ändring i bootstrap för att få sidan bättre */
+margin: 0;
+width: 100%;
+max-width: 100%;
+}
+img{
+	max-width: 100%;
+}
+.col-4{									/* Ändring i bootstrap för att få sidan responsiv */
+	  position: 0;
+	  max-width: 100%;
+}
+.fargtema{								/* Klass för att ändra färgtema på sidan */
 	background-color: #f0efef;
 }
-.padding{
+.padding{								/* Klass för padding för text på sidan */
 	padding: 10px 0px 0px 35px;
 }
 .padding2{
 	padding: 0px 0px 0px 10px;
 }
+.quizfix{
+		width: 400px;					/* Klass för att ändra färgtema på sidan */
+}
+.quiz{
+	height: 630px;
+}
 .mellanrum{
 	margin-left: 20px;
 }
 .main{
-	width: 100%;
+	width: 90%	;
 }
 .flex{
 	display: flex;
 	flex-wrap: wrap;
 }
-.ner{
-	margin-bottom: 15px;
+.noborder{
+	border: 0;
 }
-.bildgalleri{
+.merner{
+	margin-bottom: 40px;				/* Fixar ett problem som gjorde att quizet överlappade footern i mobilläge*/
+}
+.ner{
+	margin-bottom: 15px;				/* Läger margin på vissa bilder och texter för att få sidan luftigare */
+}
+.bildgalleri{							/* Skapar mellanrum mellan bilderna på bildgalleriet */
 	margin-right: 10px;
 	margin-top: 5px;
 }
-.auto{
+.auto{									/* Klass som används på olika ställen på sidan för att få text och liknande i mitten */
 	margin: auto;
 	text-align: center;
-}
-.sidopanel{
-
 }
 .material:hover{
 	background: black;
 }
-.kort{
+.material{
+		background-color: #e80c94;		/* Gör knappar på första sidan is samma färg som loggan */
+		color: white;
+}
+.kort{									/* For kontakt-korten att staplas fint bredvid varandra med lite mellanrum */
 	float: left;
 	margin-right: 15px;
 }
@@ -45,21 +70,20 @@ body{
 	margin-bottom: 25px;
 	text-align: center;
 }
-.mitt{
-	text-align: center;
-}
-.footer{
+.footer{								/* Klass till footer */
 	text-align: center;
 	height: 100px;
 	width: 100%;
 	padding-top: 35px;
+	bottom: 0;
+	position: relative;
 }
-.storlek{
+.storlek{								/* Gör bilderna på quizet i rätt storlek */
 background-size: 400px;
 width: 400px;
 height: 220px;
 }
-.flytt{
+.flytt{									/* Gör så att quizet inte går igenom några element */
 	height: 225px;
 }
 .input{
@@ -71,7 +95,7 @@ height: 220px;
 #answer{
 	width: 375px;
 }
-.bild0{
+.bild0{									/* Bilder till quizet */
 	background-image: url("../img/bild0.png");
 	background-position: center;
 	background-repeat: no-repeat;
