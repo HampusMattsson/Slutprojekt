@@ -1,7 +1,7 @@
 var antal = 0;
 var fragor = 10;
 
-var svar = ["programmeringsspråk", "modul", "c++"]
+var svar = ["programmeringsspråk", "modul", "python"]
 var froga = ["Vad är Python för något?", "Vad är Turtle?", "Vad heter detta programmeringsspråk?"]
 
 var forsok = 0;

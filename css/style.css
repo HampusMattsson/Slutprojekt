@@ -4,7 +4,10 @@ body{
 	background-color: #f0efef;
 }
 .padding{
-	padding: 10px 0px 0px 30px;
+	padding: 10px 0px 0px 35px;
+}
+.padding2{
+	padding: 0px 0px 0px 10px;
 }
 .mellanrum{
 	margin-left: 20px;
@@ -14,9 +17,13 @@ body{
 }
 .flex{
 	display: flex;
+	flex-wrap: wrap;
+}
+.ner{
+	margin-bottom: 15px;
 }
 .bildgalleri{
-	margin-right: 5px;
+	margin-right: 10px;
 	margin-top: 5px;
 }
 .auto{
@@ -26,8 +33,12 @@ body{
 .sidopanel{
 
 }
+.material:hover{
+	background: black;
+}
 .kort{
 	float: left;
+	margin-right: 15px;
 }
 .info{
 	margin-top: 10px;
@@ -41,7 +52,7 @@ body{
 	text-align: center;
 	height: 100px;
 	width: 100%;
-	padding-top: 40px;
+	padding-top: 35px;
 }
 .storlek{
 background-size: 400px;
